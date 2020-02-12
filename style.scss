@@ -17,77 +17,85 @@ body {
 /*-----------------------------------------**CSS SAAF**----------------------------------------*/
 
 .saaf {
-    width: auto;
-    height: 750px;
-    .saaf__info {
+  width: auto;
+  height: 750px;
+
+  .saaf__info {
+    text-align: center;
+    height: 25%;
+    display: block;
+
+    h1 {
+      padding-top: 90px;
+      border-bottom: 1px solid #FF7315;
+      text-align: center;
+      width: 40%;
+      margin: 0 auto;
+      letter-spacing: 1px;
+      font-size: 3rem;
+      text-transform: uppercase;
+
+      .saaf__info--modifier {
+        color: #FF7315;
+        font-size: 1rem;
+
+      }
+
+      .saaf__info--modifierdeux {
+        font-weight: bold;
+        font-size: 2rem;
+        color: black;
+      }
+
+    }
+  }
+
+  .service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 60%;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+
+      img {
+        width: 10%;
+        height: 10%;
+        margin-bottom: 25px;
+        ;
+
+      }
+
+      h2 {
+        border-bottom: 1px solid #FF7315;
+        margin: 0 auto;
+        font-weight: bold;
+        text-transform: uppercase;
+
+
+      }
+
+      p {
+        height: 50%;
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 20px;
         text-align: center;
-        height: 25%;
-        display: block;
-                 h1{
-                padding-top: 90px;
-                border-bottom: 1px solid #FF7315;
-                text-align: center;
-                width: 40%;
-                margin: 0 auto;
-                letter-spacing: 1px;
-                font-size: 3rem;
-                text-transform: uppercase;
-                .saaf__info--modifier{
-                        color:#FF7315 ;
-                        font-size: 1rem;
-    
-                }
-                .saaf__info--modifierdeux{
-                    font-weight: bold;
-                    font-size: 2rem;
-                    color: black;
-                }
+      }
 
-            }
+      .redmi {
+        padding-bottom: 30px;
+      }
+
+
+
     }
- 
-    .service {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        height: 60%;
-            .item{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                width: 90%;
-        
-                    img {
-                        width: 10%;
-                        height: 10%;
-                        margin-bottom: 25px;;
-                        
-                    }
-                    h2 {
-                        border-bottom: 1px solid #FF7315;
-                        margin: 0 auto;
-                        font-weight: bold;
-                        text-transform: uppercase;
-                     
-
-                    }
-
-                    p {
-                        height: 50%;
-                        text-align: left;
-                        padding-left: 10px;
-                        padding-top: 20px;
-                        text-align: center;
-                    }
-                    .redmi {
-                        padding-bottom: 30px;
-                    }
-                   
-                   
-                   
-            } 
-    }
+  }
 }
 
 
@@ -95,7 +103,7 @@ body {
 /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
 /*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
 .page__section {
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   margin: auto;
 }
 
@@ -185,6 +193,7 @@ span {
   grid-area: img1__page;
   justify-self: center;
   align-self: center;
+  padding-top: 3%;
 }
 
 .img2__page {
