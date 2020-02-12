@@ -87,7 +87,9 @@ span {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 20% 50% 50%;
-  grid-template-areas: ". title__page ." "img1__page img2__page img3__page" "img4__page img5__page img6__page";
+  grid-template-areas: ". title__page ."
+ "img1__page img2__page img3__page"
+ "img4__page img5__page img6__page";
 }
 
 .title__page {
@@ -241,6 +243,7 @@ span {
   /*------------------------Responsive pour Mobile - SAAF---------------------------*/
   /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
+
 }
 
 @media screen and (max-width: 480px) and (max-width: 480px) {
@@ -251,7 +254,8 @@ span {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: "content-txt" "vid__page";
+    grid-template-areas: "content-txt"
+ "vid__page";
   }
   .content-txt {
     grid-area: content-txt;
@@ -270,7 +274,13 @@ span {
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "title__page" "img1__page" "img2__page" "img3__page" "img4__page" "img5__page" "img6__page";
+    grid-template-areas: "title__page"
+ "img1__page"
+ "img2__page"
+ "img3__page"
+ "img4__page"
+ "img5__page"
+ "img6__page";
   }
   .title__page {
     grid-area: title__page;
@@ -340,3 +350,7 @@ span {
   /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
 }
+
+
+/*# sourceMappingURL=style.css.map */
+
