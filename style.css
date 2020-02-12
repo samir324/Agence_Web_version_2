@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -52,9 +52,9 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-rows: 1fr;
   height: 60%;
 }
 
@@ -64,14 +64,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 90%;
 }
 
@@ -115,14 +115,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .txt__page {
   width: 100%;
   -ms-grid-column-align: stretch;
-      justify-self: stretch;
+  justify-self: stretch;
 }
 
 .txt__page H1 {
@@ -157,11 +157,11 @@ span {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .content-txt a :active {
@@ -188,9 +188,11 @@ span {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: 20% 50% 50%;
-      grid-template-areas: ". title__page ." "img1__page img2__page img3__page" "img4__page img5__page img6__page";
+  grid-template-areas: ". title__page ."
+    "img1__page img2__page img3__page"
+    "img4__page img5__page img6__page";
 }
 
 .title__page {
@@ -198,10 +200,10 @@ span {
   -ms-grid-column: 2;
   grid-area: title__page;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .img1__page {
@@ -209,11 +211,10 @@ span {
   -ms-grid-column: 1;
   grid-area: img1__page;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  padding-top: 3%;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .img2__page {
@@ -221,10 +222,10 @@ span {
   -ms-grid-column: 2;
   grid-area: img2__page;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .img3__page {
@@ -232,10 +233,10 @@ span {
   -ms-grid-column: 3;
   grid-area: img3__page;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .img4__page {
@@ -243,10 +244,10 @@ span {
   -ms-grid-column: 1;
   grid-area: img4__page;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .img5__page {
@@ -254,10 +255,10 @@ span {
   -ms-grid-column: 2;
   grid-area: img5__page;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .img6__page {
@@ -265,10 +266,10 @@ span {
   -ms-grid-column: 3;
   grid-area: img6__page;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 /*----------------------------------------**FIN CSS NAJJAR**-------------------------------------*/
@@ -297,7 +298,7 @@ span {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .container_pricing_items {
@@ -316,7 +317,7 @@ span {
 }
 
 .container_pricing_items2 {
-  margin: 5% 0 5% 0;
+  height: 50%;
   font-size: 2rem;
 }
 
@@ -331,31 +332,6 @@ span {
   border-radius: 7px;
   background-color: orange;
   border: none;
-}
-
-.button_pricing_1 {
-  padding: 2% 13% 2% 13%;
-  border-radius: 7px;
-  background-color: orange;
-  border: none;
-  margin-top: 20%;
-}
-
-.container_pricing_items11 {
-  text-align: center;
-  color: orange;
-  margin: 5% 0 20% 0;
-  font-size: 2rem;
-}
-
-.container_pricing_items22 {
-  font-size: 2rem;
-}
-
-.container_pricing_items33 {
-  text-align: center;
-  font-size: 2rem;
-  margin: 20% 0 3% 0;
 }
 
 /*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
@@ -377,6 +353,7 @@ span {
 }
 
 @media screen and (max-width: 480px) {
+
   /*------------------------Responsive pour Mobile - KHADIJA-------------------------*/
   /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*------------------------Responsive pour Mobile - SAAF---------------------------*/
@@ -389,112 +366,130 @@ span {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "content-txt" "vid__page";
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "content-txt"
+      "vid__page";
   }
+
   .content-txt {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: content-txt;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   .vid__page {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: vid__page;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     padding-top: 3%;
   }
+
   .table2__page {
     width: 100%;
     margin: auto;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
+    grid-template-columns: 100%;
     grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: "title__page" "img1__page" "img2__page" "img3__page" "img4__page" "img5__page" "img6__page";
+    grid-template-areas: "title__page"
+      "img1__page"
+      "img2__page"
+      "img3__page"
+      "img4__page"
+      "img5__page"
+      "img6__page";
   }
+
   .title__page {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: title__page;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   .img1__page {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: img1__page;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   .img2__page {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: img2__page;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   .img3__page {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: img3__page;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   .img4__page {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     grid-area: img4__page;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   .img5__page {
     -ms-grid-row: 6;
     -ms-grid-column: 1;
     grid-area: img5__page;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   .img6__page {
     -ms-grid-row: 7;
     -ms-grid-column: 1;
     grid-area: img6__page;
     -ms-grid-column-align: center;
-        justify-self: center;
+    justify-self: center;
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
+
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
@@ -502,33 +497,39 @@ span {
   .responsive {
     width: 100%;
   }
+
   .container_pricing {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
-  .container_pricing_items11 {
+
+  .container_pricing_items1 {
     text-align: center;
     color: orange;
     margin: 5% 0 20% 0;
     font-size: 2rem;
     padding: 0 50% 0 50%;
   }
+
   .container_pricing_items2 {
     margin-left: -6%;
   }
+
   .container_pricing_items {
     padding: 0 80% 0 10%;
     margin-left: 5%;
   }
+
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
 }
+
 /*# sourceMappingURL=style.css.map */
