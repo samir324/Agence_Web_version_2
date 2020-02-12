@@ -139,6 +139,7 @@ span {
   align-self: center;
 }
 
+
 /*----------------------------------------**FIN CSS NAJJAR**-------------------------------------*/
 /*-----------------------------------------**CSS ILYASS**----------------------------------------*/
 
@@ -262,16 +263,11 @@ span {
   /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
   @media screen and (max-width: 480px) {
-    body {
-      width: 80%;
-      margin: auto;
-    }
 
     .table__page {
-      width: 100%;
+      width: 90%;
       margin: auto;
       text-align: center;
-      float: right;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
@@ -294,10 +290,9 @@ span {
 
     .table2__page {
       width: 100%;
-      padding-left: 2%;
-      padding-right: 2%;
+      margin: auto;
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 100%;
       grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-areas: "title__page"
         "img1__page"
