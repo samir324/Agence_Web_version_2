@@ -16,6 +16,80 @@ body {
 /*-------------------------------------**FIN CSS KHADIJA**-------------------------------------*/
 /*-----------------------------------------**CSS SAAF**----------------------------------------*/
 
+.saaf {
+    width: auto;
+    height: 750px;
+    .saaf__info {
+        text-align: center;
+        height: 25%;
+        display: block;
+                 h1{
+                padding-top: 90px;
+                border-bottom: 1px solid #FF7315;
+                text-align: center;
+                width: 40%;
+                margin: 0 auto;
+                letter-spacing: 1px;
+                font-size: 3rem;
+                text-transform: uppercase;
+                .saaf__info--modifier{
+                        color:#FF7315 ;
+                        font-size: 1rem;
+    
+                }
+                .saaf__info--modifierdeux{
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: black;
+                }
+
+            }
+    }
+ 
+    .service {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        height: 60%;
+            .item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+        
+                    img {
+                        width: 10%;
+                        height: 10%;
+                        margin-bottom: 25px;;
+                        
+                    }
+                    h2 {
+                        border-bottom: 1px solid #FF7315;
+                        margin: 0 auto;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                     
+
+                    }
+
+                    p {
+                        height: 50%;
+                        text-align: left;
+                        padding-left: 10px;
+                        padding-top: 20px;
+                        text-align: center;
+                    }
+                    .redmi {
+                        padding-bottom: 30px;
+                    }
+                   
+                   
+                   
+            } 
+    }
+}
+
 
 
 /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
@@ -371,59 +445,6 @@ span {
     font-size: 2rem;
     padding: 0 50% 0 50%;
   }
-<<<<<<< HEAD
-  
-  @media screen and (max-width: 480px) {
-    /*------------------------Responsive pour Mobile - KHADIJA-------------------------*/
-  
-    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*------------------------Responsive pour Mobile - SAAF---------------------------*/
-    
-  
-    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
-  
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
-  
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
-   
-        .responsive{
-            width: 100%;
-        }
-        .container_pricing{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-          
-        
-        }
-        .container_pricing_items11{
-            text-align: center;
-            color: orange;
-            margin: 5% 0 20% 0;
-            font-size: 2rem;
-            padding: 0 50% 0 50%;
-        }
-        .container_pricing_items2{
-           
-           margin-left: -6%;
-           
-        }
-        .container_pricing_items{
-            padding: 0 80% 0 10%;
-            margin-left:5%;
-        
-        }
-    
-    
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
-  
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-  }
-=======
 
   .container_pricing_items2 {
 
@@ -443,4 +464,3 @@ span {
 
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
 }
->>>>>>> 882b52988462b1f187518850e1a092cc72592cec
