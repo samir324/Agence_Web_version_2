@@ -20,6 +20,86 @@ body {
 /*-----------------------------------------**CSS ILYASS**----------------------------------------*/
 /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
 /*-----------------------------------------**CSS SAMIR**----------------------------------------*/
+.section_pricing h1 {
+  color: orange;
+  text-align: center;
+  font-size: 4rem;
+  margin: 6% 0 6% 0;
+}
+
+.responsive {
+  width: 100%;
+}
+
+.para {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+
+.container_pricing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container_pricing_items {
+  border: 3px solid grey;
+  padding: 4% 4% 4% 4%;
+  width: 20%;
+  border-radius: 7px;
+  margin-bottom: 10%;
+}
+
+.container_pricing_items1 {
+  text-align: center;
+  color: orange;
+  margin: 5% 0 20% 0;
+  font-size: 2rem;
+}
+
+.container_pricing_items2 {
+  margin: 5% 0 5% 0;
+  font-size: 2rem;
+}
+
+.container_pricing_items3 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20% 0 3% 0;
+}
+
+.button_pricing {
+  padding: 2% 13% 2% 13%;
+  border-radius: 7px;
+  background-color: orange;
+  border: none;
+}
+
+.button_pricing_1 {
+  padding: 2% 13% 2% 13%;
+  border-radius: 7px;
+  background-color: orange;
+  border: none;
+  margin-top: 20%;
+}
+
+.container_pricing_items11 {
+  text-align: center;
+  color: orange;
+  margin: 5% 0 20% 0;
+  font-size: 2rem;
+}
+
+.container_pricing_items22 {
+  font-size: 2rem;
+}
+
+.container_pricing_items33 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20% 0 3% 0;
+}
+
 /*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
 /*-----------------------------------------**CSS SANAE**----------------------------------------*/
 /*----------------------------------------**FIN CSS SANA**-------------------------------------*/
@@ -48,6 +128,28 @@ body {
   /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
+  .responsive {
+    width: 100%;
+  }
+  .container_pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .container_pricing_items11 {
+    text-align: center;
+    color: orange;
+    margin: 5% 0 20% 0;
+    font-size: 2rem;
+    padding: 0 50% 0 50%;
+  }
+  .container_pricing_items2 {
+    margin-left: -6%;
+  }
+  .container_pricing_items {
+    padding: 0 80% 0 10%;
+    margin-left: 5%;
+  }
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
