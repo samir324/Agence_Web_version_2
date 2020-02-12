@@ -267,88 +267,85 @@ span {
 
   /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
-  @media screen and (max-width: 480px) {
+  .table__page {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "content-txt"
+      "vid__page";
+  }
 
-    .table__page {
-      width: 90%;
-      margin: auto;
-      text-align: center;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
-      grid-template-areas: "content-txt"
-        "vid__page";
-    }
+  .content-txt {
+    grid-area: content-txt;
+    justify-self: center;
+    align-self: center;
+  }
 
-    .content-txt {
-      grid-area: content-txt;
-      justify-self: center;
-      align-self: center;
-    }
+  .vid__page {
+    grid-area: vid__page;
+    justify-self: center;
+    align-self: center;
+    padding-top: 3%;
+  }
 
-    .vid__page {
-      grid-area: vid__page;
-      justify-self: center;
-      align-self: center;
-      padding-top: 3%;
-    }
+  .table2__page {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "title__page"
+      "img1__page"
+      "img2__page"
+      "img3__page"
+      "img4__page"
+      "img5__page"
+      "img6__page";
+  }
 
-    .table2__page {
-      width: 100%;
-      margin: auto;
-      display: grid;
-      grid-template-columns: 100%;
-      grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-areas: "title__page"
-        "img1__page"
-        "img2__page"
-        "img3__page"
-        "img4__page"
-        "img5__page"
-        "img6__page";
-    }
+  .title__page {
+    grid-area: title__page;
+    justify-self: center;
+    align-self: center;
+  }
 
-    .title__page {
-      grid-area: title__page;
-      justify-self: center;
-      align-self: center;
-    }
+  .img1__page {
+    grid-area: img1__page;
+    justify-self: center;
+    align-self: center;
+  }
 
-    .img1__page {
-      grid-area: img1__page;
-      justify-self: center;
-      align-self: center;
-    }
+  .img2__page {
+    grid-area: img2__page;
+    justify-self: center;
+    align-self: center;
+  }
 
-    .img2__page {
-      grid-area: img2__page;
-      justify-self: center;
-      align-self: center;
-    }
+  .img3__page {
+    grid-area: img3__page;
+    justify-self: center;
+    align-self: center;
+  }
 
-    .img3__page {
-      grid-area: img3__page;
-      justify-self: center;
-      align-self: center;
-    }
+  .img4__page {
+    grid-area: img4__page;
+    justify-self: center;
+    align-self: center;
+  }
 
-    .img4__page {
-      grid-area: img4__page;
-      justify-self: center;
-      align-self: center;
-    }
+  .img5__page {
+    grid-area: img5__page;
+    justify-self: center;
+    align-self: center;
+  }
 
-    .img5__page {
-      grid-area: img5__page;
-      justify-self: center;
-      align-self: center;
-    }
-
-    .img6__page {
-      grid-area: img6__page;
-      justify-self: center;
-      align-self: center;
-    }
+  .img6__page {
+    grid-area: img6__page;
+    justify-self: center;
+    align-self: center;
   }
 
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
@@ -376,59 +373,6 @@ span {
     font-size: 2rem;
     padding: 0 50% 0 50%;
   }
-<<<<<<< HEAD
-  
-  @media screen and (max-width: 480px) {
-    /*------------------------Responsive pour Mobile - KHADIJA-------------------------*/
-  
-    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*------------------------Responsive pour Mobile - SAAF---------------------------*/
-    
-  
-    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
-  
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
-  
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
-   
-        .responsive{
-            width: 100%;
-        }
-        .container_pricing{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-          
-        
-        }
-        .container_pricing_items11{
-            text-align: center;
-            color: orange;
-            margin: 5% 0 20% 0;
-            font-size: 2rem;
-            padding: 0 50% 0 50%;
-        }
-        .container_pricing_items2{
-           
-           margin-left: -6%;
-           
-        }
-        .container_pricing_items{
-            padding: 0 80% 0 10%;
-            margin-left:5%;
-        
-        }
-    
-    
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
-  
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-  }
-=======
 
   .container_pricing_items2 {
 
@@ -448,4 +392,3 @@ span {
 
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
 }
->>>>>>> 882b52988462b1f187518850e1a092cc72592cec
