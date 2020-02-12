@@ -16,6 +16,8 @@ body {
 /*-------------------------------------**FIN CSS KHADIJA**-------------------------------------*/
 /*-----------------------------------------**CSS SAAF**----------------------------------------*/
 
+
+
 /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
 /*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
 .page__section {
@@ -151,7 +153,7 @@ span {
 .section_pricing h1 {
   color: orange;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 6% 0 6% 0;
 }
 
@@ -161,7 +163,7 @@ span {
 
 .para {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 5%;
 }
 
@@ -374,6 +376,59 @@ span {
     font-size: 2rem;
     padding: 0 50% 0 50%;
   }
+<<<<<<< HEAD
+  
+  @media screen and (max-width: 480px) {
+    /*------------------------Responsive pour Mobile - KHADIJA-------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*------------------------Responsive pour Mobile - SAAF---------------------------*/
+    
+  
+    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
+   
+        .responsive{
+            width: 100%;
+        }
+        .container_pricing{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+          
+        
+        }
+        .container_pricing_items11{
+            text-align: center;
+            color: orange;
+            margin: 5% 0 20% 0;
+            font-size: 2rem;
+            padding: 0 50% 0 50%;
+        }
+        .container_pricing_items2{
+           
+           margin-left: -6%;
+           
+        }
+        .container_pricing_items{
+            padding: 0 80% 0 10%;
+            margin-left:5%;
+        
+        }
+    
+    
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+  }
+=======
 
   .container_pricing_items2 {
 
@@ -393,3 +448,4 @@ span {
 
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
 }
+>>>>>>> 882b52988462b1f187518850e1a092cc72592cec
