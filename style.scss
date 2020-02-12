@@ -24,7 +24,7 @@
   
   /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
   /*-----------------------------------------**CSS SAMIR**----------------------------------------*/
-  .section_pricing h1{
+.section_pricing h1{
     color: orange;
     text-align: center;
     font-size: 4rem;
@@ -98,7 +98,92 @@
 
   /*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
   /*-----------------------------------------**CSS SANAE**----------------------------------------*/
-  
+.technology{
+    background-color:#f4f4f4;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    justify-items: center;
+    h1{
+        grid-column: 1/ span 5;
+        grid-row: 1/2; 
+        align-content: center;
+        span{color:#ff7315;}
+    }
+    .technology__1{
+        grid-column: 1/2;
+        grid-row: 2/2;
+    } 
+    .technology__2{
+        grid-column: 2/3;
+        grid-row: 2/2;
+    }   
+    .technology__3{
+        grid-column: 3/4;
+        grid-row: 2/2;
+    }
+    .technology__4{
+        grid-column: 4/5;
+        grid-row: 2/2;
+    }
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#232020;
+    .info{
+        grid-column: 1/2;
+        padding: 5%;
+        color:#f4f4f4;
+        text-align: justify;
+        h1{margin: 10px ;}
+        .contact{
+            margin-top: 200px;
+            .contact__address, .contact__phone{width: 15px;}
+            h3,p{font-size: small;}
+        }   
+    }
+    .form{
+        width: 70%;
+        margin: 20px auto;
+        border-radius: 20px;
+        background-color:#f4f4f4;
+        color: #3a3535;
+        grid-column: 2/3;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        .form__input{
+            display: block;
+            margin: 2% 0;
+            width: 90%;
+            height: 40px;
+            border-radius: 10px;
+        }
+        .textarea{width: 90%; border-radius: 10px;}
+        .form__input--submit{
+            background-color: #3a3535;
+            color: #f4f4f4;
+            width: 30%;
+            height: 30px;
+            border: none;
+            box-shadow: 0 5px 6px #3a35358c;
+        }
+        
+    }    
+}
+.media{
+    padding: 2%;
+    background-color: #3a3535;
+    color: #f4f4f4;
+    text-align: center;
+    .media__icon{width: 3%; }
+    p{font-size: x-small;}
+    
+}
+
+
   /*----------------------------------------**FIN CSS SANA**-------------------------------------*/
   @media screen and (max-width: 1000px) {
     /*------------------------Responsive pour Tablette - KHADIJA-------------------------*/
@@ -136,8 +221,8 @@
     /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
     /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
    
-        .responsive{
-            width: 100%;
+    .responsive{
+         width: 100%;
         }
         .container_pricing{
             display: flex;
@@ -161,7 +246,6 @@
         .container_pricing_items{
             padding: 0 80% 0 10%;
             margin-left:5%;
-        
         }
     
     
@@ -169,4 +253,4 @@
     /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
   
     /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-  }
+}

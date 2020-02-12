@@ -17,169 +17,6 @@ body {
 /*-----------------------------------------**CSS SAAF**----------------------------------------*/
 /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
 /*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
-.page__section {
-  padding-bottom: 5%;
-  margin: auto;
-}
-
-.table__page {
-  width: 80%;
-  margin: auto;
-  padding-top: 3%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.txt__page {
-  width: 100%;
-  -ms-grid-column-align: stretch;
-      justify-self: stretch;
-}
-
-.txt__page H1 {
-  text-align: center;
-}
-
-span {
-  color: #EC830B;
-}
-
-.content-txt p {
-  padding: 6%;
-  padding-left: 0;
-}
-
-.botona {
-  width: 50%;
-  padding: 1%;
-  margin: auto;
-  background-color: blueviolet;
-  color: white;
-  font-size: 1em;
-  font-weight: 500;
-  border: none;
-  border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.content-txt a :active {
-  background-color: #EC830B;
-}
-
-.content-txt a {
-  text-decoration: none;
-  color: white;
-}
-
-.vid__page {
-  width: 90%;
-}
-
-.vid__page img {
-  width: 100%;
-}
-
-.table2__page {
-  width: 100%;
-  margin: auto;
-  padding: 3%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 20% 50% 50%;
-      grid-template-areas: ". title__page ." "img1__page img2__page img3__page" "img4__page img5__page img6__page";
-}
-
-.title__page {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: title__page;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.img1__page {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: img1__page;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.img2__page {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: img2__page;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.img3__page {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: img3__page;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.img4__page {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: img4__page;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.img5__page {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  grid-area: img5__page;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.img6__page {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
-  grid-area: img6__page;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
 /*----------------------------------------**FIN CSS NAJJAR**-------------------------------------*/
 /*-----------------------------------------**CSS ILYASS**----------------------------------------*/
 /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
@@ -202,8 +39,11 @@ span {
 }
 
 .container_pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .container_pricing_items {
@@ -266,6 +106,155 @@ span {
 
 /*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
 /*-----------------------------------------**CSS SANAE**----------------------------------------*/
+.technology {
+  background-color: #f4f4f4;
+  padding: 5%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 3fr;
+      grid-template-rows: 1fr 3fr;
+  justify-items: center;
+}
+
+.technology h1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/ span 5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.technology h1 span {
+  color: #ff7315;
+}
+
+.technology .technology__1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+}
+
+.technology .technology__2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+}
+
+.technology .technology__3 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+}
+
+.technology .technology__4 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+}
+
+.contact-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  background-color: #232020;
+}
+
+.contact-info .info {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  padding: 5%;
+  color: #f4f4f4;
+  text-align: justify;
+}
+
+.contact-info .info h1 {
+  margin: 10px;
+}
+
+.contact-info .info .contact {
+  margin-top: 200px;
+}
+
+.contact-info .info .contact .contact__address, .contact-info .info .contact .contact__phone {
+  width: 15px;
+}
+
+.contact-info .info .contact h3, .contact-info .info .contact p {
+  font-size: small;
+}
+
+.contact-info .form {
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: #f4f4f4;
+  color: #3a3535;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-info .form .form__input {
+  display: block;
+  margin: 2% 0;
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.contact-info .form .textarea {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.contact-info .form .form__input--submit {
+  background-color: #3a3535;
+  color: #f4f4f4;
+  width: 30%;
+  height: 30px;
+  border: none;
+  -webkit-box-shadow: 0 5px 6px #3a35358c;
+          box-shadow: 0 5px 6px #3a35358c;
+}
+
+.media {
+  padding: 2%;
+  background-color: #3a3535;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.media .media__icon {
+  width: 3%;
+}
+
+.media p {
+  font-size: x-small;
+}
+
 /*----------------------------------------**FIN CSS SANA**-------------------------------------*/
 @media screen and (max-width: 1000px) {
   /*------------------------Responsive pour Tablette - KHADIJA-------------------------*/
@@ -288,125 +277,6 @@ span {
   /*------------------------Responsive pour Mobile - SAAF---------------------------*/
   /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
-  body {
-    width: 80%;
-    margin: auto;
-  }
-  .table__page {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    float: right;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "content-txt" "vid__page";
-  }
-  .content-txt {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: content-txt;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .vid__page {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    grid-area: vid__page;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    padding-top: 3%;
-  }
-  .table2__page {
-    width: 100%;
-    padding-left: 2%;
-    padding-right: 2%;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: "title__page" "img1__page" "img2__page" "img3__page" "img4__page" "img5__page" "img6__page";
-  }
-  .title__page {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: title__page;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .img1__page {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
-    grid-area: img1__page;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .img2__page {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-    grid-area: img2__page;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .img3__page {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
-    grid-area: img3__page;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .img4__page {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-    grid-area: img4__page;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .img5__page {
-    -ms-grid-row: 6;
-    -ms-grid-column: 1;
-    grid-area: img5__page;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .img6__page {
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;
-    grid-area: img6__page;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
@@ -415,9 +285,15 @@ span {
     width: 100%;
   }
   .container_pricing {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .container_pricing_items11 {
     text-align: center;
