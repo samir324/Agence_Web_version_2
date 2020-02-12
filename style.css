@@ -109,6 +109,11 @@ body {
 
 .txt__page H1 {
   text-align: center;
+  font-size: 3rem;
+}
+
+.title__page h1 {
+  font-size: 3rem;
 }
 
 span {
@@ -213,7 +218,7 @@ span {
 .section_pricing h1 {
   color: orange;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 6% 0 6% 0;
 }
 
@@ -223,7 +228,7 @@ span {
 
 .para {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 5%;
 }
 
@@ -314,9 +319,6 @@ span {
   /*------------------------Responsive pour Mobile - SAAF---------------------------*/
   /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
-}
-
-@media screen and (max-width: 480px) and (max-width: 480px) {
   .table__page {
     width: 90%;
     margin: auto;
@@ -380,9 +382,6 @@ span {
     justify-self: center;
     align-self: center;
   }
-}
-
-@media screen and (max-width: 480px) {
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
