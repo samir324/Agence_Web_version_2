@@ -1,14 +1,19 @@
 * {
+<<<<<<< HEAD
 padding: 0;
+=======
+    padding: 0;
+>>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     width: 80%;
     margin: 0 auto;
     font-family: 'PT Serif', serif;
     font-size: 1.2em;
+<<<<<<< HEAD
 }
 
 /*---------------------------------------**CSS KHADIJA**---------------------------------------*/
@@ -42,10 +47,29 @@ body {
 /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
 /*-----------------------------------------**CSS SAMIR**----------------------------------------*/
 .section_pricing h1 {
+=======
+  }
+  
+  /*---------------------------------------**CSS KHADIJA**---------------------------------------*/
+  
+  /*-------------------------------------**FIN CSS KHADIJA**-------------------------------------*/
+  /*-----------------------------------------**CSS SAAF**----------------------------------------*/
+  
+  /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
+  /*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
+  
+  /*----------------------------------------**FIN CSS NAJJAR**-------------------------------------*/
+  /*-----------------------------------------**CSS ILYASS**----------------------------------------*/
+  
+  /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
+  /*-----------------------------------------**CSS SAMIR**----------------------------------------*/
+.section_pricing h1{
+>>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
     color: orange;
     text-align: center;
     font-size: 4rem;
     margin: 6% 0 6% 0;
+<<<<<<< HEAD
     =======padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -190,44 +214,13 @@ body {
 
 span {
     color: #EC830B;
+=======
+>>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
 }
-
-.content-txt p {
-    padding: 6%;
-    padding-left: 0;
-}
-
-.botona {
-    width: 50%;
-    padding: 1%;
-    margin: auto;
-    background-color: blueviolet;
-    color: white;
-    font-size: 1em;
-    font-weight: 500;
-    border: none;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-txt a :active {
-    background-color: #EC830B;
-}
-
-.content-txt a {
-    text-decoration: none;
-    color: white;
-}
-
-.vid__page {
-    width: 90%;
-}
-
-.vid__page img {
+.responsive{
     width: 100%;
 }
+<<<<<<< HEAD
 
 .table2__page {
     width: 100%;
@@ -336,17 +329,20 @@ span {
 .para {
     text-align: center;
     font-size: 2rem;
+=======
+.para{
+    text-align: center;
+    font-size: 3rem;
+>>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
     margin-bottom: 5%;
 }
-
-.container_pricing {
+.container_pricing{
     display: flex;
     justify-content: space-around;
-
+   
 
 }
-
-.container_pricing_items {
+.container_pricing_items{
     border: 3px solid grey;
     padding: 4% 4% 4% 4%;
     width: 20%;
@@ -354,358 +350,203 @@ span {
     margin-bottom: 10%;
 
 }
+<<<<<<< HEAD
 
 .container_pricing_items1 {
   text-align: center;
   color: #FF7315;
   margin: 5% 0 20% 0;
   font-size: 2rem;
+=======
+.container_pricing_items1{
+    text-align: center;
+    color: orange;
+    margin: 5% 0 20% 0;
+    font-size: 2rem;
+>>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
 }
-
-.container_pricing_items2 {
-    height: 50%;
+.container_pricing_items2{
+    margin: 5% 0 5% 0;
     font-size: 2rem;
 }
-
-.container_pricing_items3 {
+.container_pricing_items3{
     text-align: center;
     font-size: 2rem;
-    margin: 20% 0 3% 0;
+    margin: 20% 0 3% 0;  
 }
+<<<<<<< HEAD
 
 .button_pricing {
   padding: 10% 30% 10% 30%;
   border-radius: 7px;
   background-color: #FF7315;
   border: none;
+=======
+.button_pricing{
+    padding: 2% 13% 2% 13%;
+    border-radius: 7px;
+    background-color: orange;
+    border: none;
+>>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
+}
+.button_pricing_1{
+    padding: 2% 13% 2% 13%;
+    border-radius: 7px;
+    background-color: orange;
+    border: none;
+    margin-top: 20%;
+}
+.container_pricing_items11{
+    text-align: center;
+    color: orange;
+    margin: 5% 0 20% 0;
+    font-size: 2rem;
+}
+.container_pricing_items22{
+  
+    font-size: 2rem;
+}
+.container_pricing_items33{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20% 0 3% 0;  
 }
 
-
-
-
-/*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
-/*-----------------------------------------**CSS SANAE**----------------------------------------*/
-
-/*----------------------------------------**FIN CSS SANA**-------------------------------------*/
-@media screen and (max-width: 1000px) {
-    /*------------------------Responsive pour Tablette - KHADIJA-------------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Tablette" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*------------------------Responsive pour Tablette - SAAF---------------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Tablette" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Tablette - NAJJAR-----------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Tablette - ILYASS-----------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Tablette - SAMIR--------------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Tablette - SANAE-------------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
+  /*-----------------------------------------**CSS SANAE**----------------------------------------*/
+.technology{
+    background-color:#f4f4f4;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    justify-items: center;
+    h1{
+        grid-column: 1/ span 5;
+        grid-row: 1/2; 
+        align-content: center;
+        span{color:#ff7315;}
+    }
+    .technology__1{
+        grid-column: 1/2;
+        grid-row: 2/2;
+    } 
+    .technology__2{
+        grid-column: 2/3;
+        grid-row: 2/2;
+    }   
+    .technology__3{
+        grid-column: 3/4;
+        grid-row: 2/2;
+    }
+    .technology__4{
+        grid-column: 4/5;
+        grid-row: 2/2;
+    }
 }
-
-@media screen and (max-width: 480px) {
-    /*------------------------Responsive pour Mobile - KHADIJA-------------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*------------------------Responsive pour Mobile - SAAF---------------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
-    .table__page {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas: "content-txt"
-            "vid__page";
+.contact-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#232020;
+    .info{
+        grid-column: 1/2;
+        padding: 5%;
+        color:#f4f4f4;
+        text-align: justify;
+        h1{margin: 10px ;}
+        .contact{
+            margin-top: 200px;
+            .contact__address, .contact__phone{width: 15px;}
+            h3,p{font-size: small;}
+        }   
     }
-
-    .content-txt {
-        grid-area: content-txt;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .vid__page {
-        grid-area: vid__page;
-        justify-self: center;
-        align-self: center;
-        padding-top: 3%;
-    }
-
-    .table2__page {
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-areas: "title__page"
-            "img1__page"
-            "img2__page"
-            "img3__page"
-            "img4__page"
-            "img5__page"
-            "img6__page";
-    }
-
-    .title__page {
-        grid-area: title__page;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .img1__page {
-        grid-area: img1__page;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .img2__page {
-        grid-area: img2__page;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .img3__page {
-        grid-area: img3__page;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .img4__page {
-        grid-area: img4__page;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .img5__page {
-        grid-area: img5__page;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .img6__page {
-        grid-area: img6__page;
-        justify-self: center;
-        align-self: center;
-    }
-
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
-
-    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
-    /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
-
-    .responsive {
-        width: 100%;
-    }
-
-    .container_pricing {
+    .form{
+        width: 70%;
+        margin: 20px auto;
+        border-radius: 20px;
+        background-color:#f4f4f4;
+        color: #3a3535;
+        grid-column: 2/3;
+        padding: 5%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-
-
-    }
-
-    .container_pricing_items1 {
-        text-align: center;
-        color: orange;
-        margin: 5% 0 20% 0;
-        font-size: 2rem;
-    }
-
-    .container_pricing_items22 {
-
-        font-size: 2rem;
-    }
-
-    .container_pricing_items33 {
-        text-align: center;
-        font-size: 2rem;
-        margin: 20% 0 3% 0;
-    }
-
-    /*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
-    /*-----------------------------------------**CSS SANAE**----------------------------------------*/
-    .technology {
-        background-color: #f4f4f4;
-        padding: 5%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 3fr;
-        justify-items: center;
-
-        h1 {
-            grid-column: 1/ span 5;
-            grid-row: 1/2;
-            align-content: center;
-
-            span {
-                color: #ff7315;
-            }
+        .form__input{
+            display: block;
+            margin: 2% 0;
+            width: 90%;
+            height: 40px;
+            border-radius: 10px;
         }
-
-        .technology__1 {
-            grid-column: 1/2;
-            grid-row: 2/2;
-        }
-
-        .technology__2 {
-            grid-column: 2/3;
-            grid-row: 2/2;
-        }
-
-        .technology__3 {
-            grid-column: 3/4;
-            grid-row: 2/2;
-        }
-
-        .technology__4 {
-            grid-column: 4/5;
-            grid-row: 2/2;
-        }
-    }
-
-    .contact-info {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        background-color: #232020;
-
-        .info {
-            grid-column: 1/2;
-            padding: 5%;
+        .textarea{width: 90%; border-radius: 10px;}
+        .form__input--submit{
+            background-color: #3a3535;
             color: #f4f4f4;
-            text-align: justify;
-
-            h1 {
-                margin: 10px;
-            }
-
-            .contact {
-                margin-top: 200px;
-
-                .contact__address,
-                .contact__phone {
-                    width: 15px;
-                }
-
-                h3,
-                p {
-                    font-size: small;
-                }
-            }
+            width: 30%;
+            height: 30px;
+            border: none;
+            box-shadow: 0 5px 6px #3a35358c;
         }
+        
+    }    
+}
+.media{
+    padding: 2%;
+    background-color: #3a3535;
+    color: #f4f4f4;
+    text-align: center;
+    .media__icon{width: 3%; }
+    p{font-size: x-small;}
+    
+}
 
-        .form {
-            width: 70%;
-            margin: 20px auto;
-            border-radius: 20px;
-            background-color: #f4f4f4;
-            color: #3a3535;
-            grid-column: 2/3;
-            padding: 5%;
-            display: flex;
-            flex-direction: column;
 
-            .form__input {
-                display: block;
-                margin: 2% 0;
-                width: 90%;
-                height: 40px;
-                border-radius: 10px;
-            }
-
-            .textarea {
-                width: 90%;
-                border-radius: 10px;
-            }
-
-            .form__input--submit {
-                background-color: #3a3535;
-                color: #f4f4f4;
-                width: 30%;
-                height: 30px;
-                border: none;
-                box-shadow: 0 5px 6px #3a35358c;
-            }
-
+  /*----------------------------------------**FIN CSS SANA**-------------------------------------*/
+  @media screen and (max-width: 1000px) {
+    /*------------------------Responsive pour Tablette - KHADIJA-------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Tablette" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*------------------------Responsive pour Tablette - SAAF---------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Tablette" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Tablette - NAJJAR-----------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Tablette - ILYASS-----------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Tablette - SAMIR--------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Tablette - SANAE-------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+  }
+  
+  @media screen and (max-width: 480px) {
+    /*------------------------Responsive pour Mobile - KHADIJA-------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*------------------------Responsive pour Mobile - SAAF---------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
+   
+    .responsive{
+         width: 100%;
         }
-    }
-
-    .media {
-        padding: 2%;
-        background-color: #3a3535;
-        color: #f4f4f4;
-        text-align: center;
-
-        .media__icon {
-            width: 3%;
-        }
-
-        p {
-            font-size: x-small;
-        }
-
-    }
-
-
-    /*----------------------------------------**FIN CSS SANA**-------------------------------------*/
-    @media screen and (max-width: 1000px) {
-        /*------------------------Responsive pour Tablette - KHADIJA-------------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Tablette" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*------------------------Responsive pour Tablette - SAAF---------------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Tablette" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*-----------------------Responsive pour Tablette - NAJJAR-----------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*-----------------------Responsive pour Tablette - ILYASS-----------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*-----------------------Responsive pour Tablette - SAMIR--------------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*-----------------------Responsive pour Tablette - SANAE-------------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    }
-
-    @media screen and (max-width: 480px) {
-        /*------------------------Responsive pour Mobile - KHADIJA-------------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*------------------------Responsive pour Mobile - SAAF---------------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
-
-        /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
-        /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
-
-        .responsive {
-            width: 100%;
-        }
-
-        .container_pricing {
+        .container_pricing{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-
-
+          
+        
         }
-
         .container_pricing_items11{
             text-align: center;
             color: orange;
@@ -713,17 +554,16 @@ span {
             font-size: 2rem;
             padding: 0 50% 0 50%;
         }
-
-        .container_pricing_items2 {
-
-            margin-left: -6%;
-
+        .container_pricing_items2{
+           
+           margin-left: -6%;
+           
         }
-
-        .container_pricing_items {
+        .container_pricing_items{
             padding: 0 80% 0 10%;
-            margin-left: 5%;
+            margin-left:5%;
         }
+<<<<<<< HEAD
 
 
         /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
@@ -751,3 +591,12 @@ span {
 =======
     }
 >>>>>>> parent of 4c0f31a... view change
+=======
+    
+    
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
+    /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
+  
+    /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+}
+>>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
