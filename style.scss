@@ -95,6 +95,7 @@ body {
 .saaf {
     width: auto;
     height: 750px;
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,10 +110,13 @@ body {
 >>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
+=======
+>>>>>>> parent of 112af4b... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
     .saaf__info {
         text-align: center;
         height: 25%;
         display: block;
+<<<<<<< HEAD
 
         h1 {
             padding-top: 90px;
@@ -139,11 +143,37 @@ body {
         }
     }
 
+=======
+                 h1{
+                padding-top: 90px;
+                border-bottom: 1px solid #FF7315;
+                text-align: center;
+                width: 40%;
+                margin: 0 auto;
+                letter-spacing: 1px;
+                font-size: 3rem;
+                text-transform: uppercase;
+                .saaf__info--modifier{
+                        color:#FF7315 ;
+                        font-size: 1rem;
+    
+                }
+                .saaf__info--modifierdeux{
+                    font-weight: bold;
+                    font-size: 2rem;
+                    color: black;
+                }
+
+            }
+    }
+ 
+>>>>>>> parent of 112af4b... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
     .service {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         height: 60%;
+<<<<<<< HEAD
 
         .item {
             display: flex;
@@ -182,6 +212,44 @@ body {
 
 
         }
+=======
+            .item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+        
+                    img {
+                        width: 10%;
+                        height: 10%;
+                        margin-bottom: 25px;;
+                        
+                    }
+                    h2 {
+                        border-bottom: 1px solid #FF7315;
+                        margin: 0 auto;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                     
+
+                    }
+
+                    p {
+                        height: 50%;
+                        text-align: left;
+                        padding-left: 10px;
+                        padding-top: 20px;
+                        text-align: center;
+                    }
+                    .redmi {
+                        padding-bottom: 30px;
+                    }
+                   
+                   
+                   
+            } 
+>>>>>>> parent of 112af4b... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
     }
 }
 
@@ -190,8 +258,13 @@ body {
 /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
 /*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
 .page__section {
+<<<<<<< HEAD
     padding-bottom: 3%;
     margin: auto;
+=======
+  padding-bottom: 5%;
+  margin: auto;
+>>>>>>> parent of 112af4b... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
 }
 
 .table__page {
@@ -254,6 +327,7 @@ span {
   grid-area: img1__page;
   justify-self: center;
   align-self: center;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 4c0f31a... view change
@@ -280,6 +354,8 @@ span {
 >>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
+=======
+>>>>>>> parent of 112af4b... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
 }
 
 .img2__page {
@@ -369,9 +445,16 @@ span {
     font-size: 2rem;
 >>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
 }
+<<<<<<< HEAD
 .container_pricing_items2{
     margin: 5% 0 5% 0;
     font-size: 2rem;
+=======
+
+.container_pricing_items2 {
+  margin: 5% 0 5% 0;
+  font-size: 2rem;
+>>>>>>> parent of 112af4b... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
 }
 .container_pricing_items3{
     text-align: center;
@@ -385,6 +468,7 @@ span {
   border-radius: 7px;
   background-color: #FF7315;
   border: none;
+<<<<<<< HEAD
 =======
 .button_pricing{
     padding: 2% 13% 2% 13%;
@@ -401,6 +485,169 @@ span {
     margin-top: 20%;
 }
 .container_pricing_items11{
+=======
+}
+
+.button_pricing_1 {
+  padding: 2% 13% 2% 13%;
+  border-radius: 7px;
+  background-color: orange;
+  border: none;
+  margin-top: 20%;
+}
+
+.container_pricing_items11 {
+  text-align: center;
+  color: orange;
+  margin: 5% 0 20% 0;
+  font-size: 2rem;
+}
+
+.container_pricing_items22 {
+
+  font-size: 2rem;
+}
+
+.container_pricing_items33 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20% 0 3% 0;
+}
+
+/*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
+/*-----------------------------------------**CSS SANAE**----------------------------------------*/
+
+/*----------------------------------------**FIN CSS SANA**-------------------------------------*/
+@media screen and (max-width: 1000px) {
+  /*------------------------Responsive pour Tablette - KHADIJA-------------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Tablette" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*------------------------Responsive pour Tablette - SAAF---------------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Tablette" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*-----------------------Responsive pour Tablette - NAJJAR-----------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*-----------------------Responsive pour Tablette - ILYASS-----------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*-----------------------Responsive pour Tablette - SAMIR--------------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*-----------------------Responsive pour Tablette - SANAE-------------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Tablette" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+}
+
+@media screen and (max-width: 480px) {
+  /*------------------------Responsive pour Mobile - KHADIJA-------------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - KHADIJA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*------------------------Responsive pour Mobile - SAAF---------------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
+  .table__page {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "content-txt"
+      "vid__page";
+  }
+
+  .content-txt {
+    grid-area: content-txt;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .vid__page {
+    grid-area: vid__page;
+    justify-self: center;
+    align-self: center;
+    padding-top: 3%;
+  }
+
+  .table2__page {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "title__page"
+      "img1__page"
+      "img2__page"
+      "img3__page"
+      "img4__page"
+      "img5__page"
+      "img6__page";
+  }
+
+  .title__page {
+    grid-area: title__page;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .img1__page {
+    grid-area: img1__page;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .img2__page {
+    grid-area: img2__page;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .img3__page {
+    grid-area: img3__page;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .img4__page {
+    grid-area: img4__page;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .img5__page {
+    grid-area: img5__page;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .img6__page {
+    grid-area: img6__page;
+    justify-self: center;
+    align-self: center;
+  }
+
+  /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*-----------------------Responsive pour Mobile - SAMIR--------------------------*/
+
+  .responsive {
+    width: 100%;
+  }
+
+  .container_pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+  }
+
+  .container_pricing_items11 {
+>>>>>>> parent of 112af4b... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
     text-align: center;
     color: orange;
     margin: 5% 0 20% 0;
@@ -523,4 +770,14 @@ span {
 >>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
 =======
   }
+<<<<<<< HEAD
 >>>>>>> parent of 52350e5... l'ajout de css de section footer
+=======
+
+
+  /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
+  /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
+
+  /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
+}
+>>>>>>> parent of 112af4b... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
