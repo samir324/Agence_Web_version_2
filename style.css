@@ -21,6 +21,169 @@ body {
 /*-----------------------------------------**CSS SAAF**----------------------------------------*/
 /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
 /*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
+.page__section {
+  padding-bottom: 5%;
+  margin: auto;
+}
+
+.table__page {
+  width: 80%;
+  margin: auto;
+  padding-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.txt__page {
+  width: 100%;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+}
+
+.txt__page H1 {
+  text-align: center;
+}
+
+span {
+  color: #EC830B;
+}
+
+.content-txt p {
+  padding: 6%;
+  padding-left: 0;
+}
+
+.botona {
+  width: 50%;
+  padding: 1%;
+  margin: auto;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-txt a :active {
+  background-color: #EC830B;
+}
+
+.content-txt a {
+  text-decoration: none;
+  color: white;
+}
+
+.vid__page {
+  width: 90%;
+}
+
+.vid__page img {
+  width: 100%;
+}
+
+.table2__page {
+  width: 100%;
+  margin: auto;
+  padding: 3%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 20% 50% 50%;
+      grid-template-areas: ". title__page ." "img1__page img2__page img3__page" "img4__page img5__page img6__page";
+}
+
+.title__page {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: title__page;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.img1__page {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: img1__page;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.img2__page {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: img2__page;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.img3__page {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: img3__page;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.img4__page {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: img4__page;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.img5__page {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: img5__page;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.img6__page {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: img6__page;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 /*----------------------------------------**FIN CSS NAJJAR**-------------------------------------*/
 /*-----------------------------------------**CSS ILYASS**----------------------------------------*/
 /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
@@ -327,9 +490,8 @@ span {
 }
 
 .container_pricing {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -354,6 +516,9 @@ span {
 =======
       justify-content: space-around;
 >>>>>>> parent of d4b58fa... Merge branch 'dev' of https://github.com/samir324/Agence_Web_version_2 into dev
+=======
+  justify-content: space-around;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
 }
 
 .txt__page {
@@ -431,6 +596,7 @@ span {
 
 /*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
 /*-----------------------------------------**CSS SANAE**----------------------------------------*/
+<<<<<<< HEAD
 .technology {
   background-color: #f4f4f4;
   padding: 5%;
@@ -613,6 +779,8 @@ span {
 
 /*----------------------------------------**FIN CSS SAMIR**-------------------------------------*/
 /*-----------------------------------------**CSS SANAE**----------------------------------------*/
+=======
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
 /*----------------------------------------**FIN CSS SANA**-------------------------------------*/
 @media screen and (max-width: 1000px) {
   /*------------------------Responsive pour Tablette - KHADIJA-------------------------*/
@@ -636,15 +804,28 @@ span {
   /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
 <<<<<<< HEAD
+<<<<<<< HEAD
   .table__page {
     width: 90%;
     margin: auto;
     text-align: center;
+=======
+  body {
+    width: 80%;
+    margin: auto;
+  }
+  .table__page {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    float: right;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr;
+<<<<<<< HEAD
 <<<<<<< HEAD
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "content-txt"
@@ -666,6 +847,10 @@ span {
 >>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
+=======
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "content-txt" "vid__page";
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .content-txt {
     -ms-grid-row: 1;
@@ -679,6 +864,7 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
@@ -693,6 +879,10 @@ span {
     -ms-grid-row-align: center;
     align-self: center;
 >>>>>>> parent of 4c0f31a... view change
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .vid__page {
     -ms-grid-row: 2;
@@ -706,6 +896,7 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
@@ -720,10 +911,15 @@ span {
     -ms-grid-row-align: center;
     align-self: center;
 >>>>>>> parent of 4c0f31a... view change
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
     padding-top: 3%;
   }
   .table2__page {
     width: 100%;
+<<<<<<< HEAD
     margin: auto;
     display: -ms-grid;
     display: grid;
@@ -759,6 +955,16 @@ span {
 >>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
+=======
+    padding-left: 2%;
+    padding-right: 2%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 6% 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "title__page" "img1__page" "img2__page" "img3__page" "img4__page" "img5__page" "img6__page";
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .title__page {
     -ms-grid-row: 1;
@@ -772,6 +978,7 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
@@ -786,6 +993,10 @@ span {
     -ms-grid-row-align: center;
     align-self: center;
 >>>>>>> parent of 4c0f31a... view change
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .img1__page {
     -ms-grid-row: 2;
@@ -799,6 +1010,7 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
@@ -813,6 +1025,10 @@ span {
     -ms-grid-row-align: center;
     align-self: center;
 >>>>>>> parent of 4c0f31a... view change
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .img2__page {
     -ms-grid-row: 3;
@@ -826,6 +1042,7 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
@@ -840,6 +1057,10 @@ span {
     -ms-grid-row-align: center;
     align-self: center;
 >>>>>>> parent of 4c0f31a... view change
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .img3__page {
     -ms-grid-row: 4;
@@ -853,6 +1074,7 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
@@ -867,6 +1089,10 @@ span {
     -ms-grid-row-align: center;
     align-self: center;
 >>>>>>> parent of 4c0f31a... view change
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .img4__page {
     -ms-grid-row: 5;
@@ -880,6 +1106,7 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
@@ -894,6 +1121,10 @@ span {
     -ms-grid-row-align: center;
     align-self: center;
 >>>>>>> parent of 4c0f31a... view change
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .img5__page {
     -ms-grid-row: 6;
@@ -907,6 +1138,7 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
@@ -921,6 +1153,10 @@ span {
     -ms-grid-row-align: center;
     align-self: center;
 >>>>>>> parent of 4c0f31a... view change
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   }
   .img6__page {
     -ms-grid-row: 7;
@@ -929,6 +1165,7 @@ span {
     -ms-grid-column-align: center;
         justify-self: center;
     -ms-flex-item-align: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1145,6 +1382,11 @@ span {
   /*------------------------Responsive pour Mobile - SAAF---------------------------*/
   /*-\\\\\\\\\\\\\\\\\FIN "Responsive pour Mobile" - SAAF**\\\\\\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - NAJJAR-----------------------*/
+=======
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+>>>>>>> parent of 52350e5... l'ajout de css de section footer
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - NAJJAR**\\\\\\\\\\\\\\\\\\\\\\-*/
   /*-----------------------Responsive pour Mobile - ILYASS-----------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - ILYASS**\\\\\\\\\\\\\\\\\\\\\\-*/
@@ -1153,15 +1395,9 @@ span {
     width: 100%;
   }
   .container_pricing {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .container_pricing_items11 {
     text-align: center;
