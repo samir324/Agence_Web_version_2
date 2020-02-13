@@ -76,7 +76,6 @@ body {
 }
 
 .saaf .service {
-  display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -86,16 +85,14 @@ body {
 }
 
 .saaf .service .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -130,7 +127,7 @@ body {
 /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
 /*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
 .page__section {
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   margin: auto;
 }
 
@@ -138,18 +135,13 @@ body {
   width: 80%;
   margin: auto;
   padding-top: 3%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .txt__page {
   width: 100%;
-  -ms-grid-column-align: stretch;
-      justify-self: stretch;
+  justify-self: stretch;
 }
 
 .txt__page H1 {
@@ -178,6 +170,139 @@ span {
   color: white;
   font-size: 1em;
   font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-txt a :active {
+  background-color: #EC830B;
+}
+
+.content-txt a {
+  text-decoration: none;
+  color: white;
+}
+
+.vid__page {
+  width: 90%;
+}
+
+.vid__page img {
+  width: 100%;
+}
+
+.table2__page {
+  width: 100%;
+  margin: auto;
+  padding: 3%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 20% 50% 50%;
+  grid-template-areas: ". title__page ."
+ "img1__page img2__page img3__page"
+ "img4__page img5__page img6__page";
+}
+
+.title__page {
+  grid-area: title__page;
+  justify-self: center;
+  align-self: center;
+}
+
+.img1__page {
+  grid-area: img1__page;
+  justify-self: center;
+  align-self: center;
+}
+
+.img2__page {
+  grid-area: img2__page;
+  justify-self: center;
+  align-self: center;
+}
+
+.img3__page {
+  grid-area: img3__page;
+  justify-self: center;
+  align-self: center;
+}
+
+.img4__page {
+  grid-area: img4__page;
+  justify-self: center;
+  align-self: center;
+}
+
+.img5__page {
+  grid-area: img5__page;
+  justify-self: center;
+  align-self: center;
+}
+
+.img6__page {
+  grid-area: img6__page;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  align-self: center;
+}
+/*----------------------------------------**FIN CSS NAJJAR**-------------------------------------*/
+/*-----------------------------------------**CSS ILYASS**----------------------------------------*/
+/*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
+/*-----------------------------------------**CSS SAMIR**----------------------------------------*/
+.section_pricing h1 {
+  color: #FF7315;
+  text-align: center;
+  font-size: 3rem;
+  margin: 6% 0 6% 0;
+}
+
+.responsive {
+  width: 100%;
+}
+
+*
+.para {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+
+.container_pricing {
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.txt__page {
+  width: 100%;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+}
+
+.txt__page H1 {
+  text-align: center;
+  color: #FF7315;
+  margin: 5% 0 20% 0;
+  font-size: 2rem;
+}
+
+.title__page h1 {
+  font-size: 3rem;
+}
+
+span {
+  color: #EC830B;
+}
+
+.button_pricing {
+  padding: 10% 30% 10% 30%;
+  border-radius: 7px;
+  background-color: #FF7315;
   border: none;
   border-radius: 4px;
   display: -webkit-box;
@@ -390,7 +515,6 @@ span {
     width: 90%;
     margin: auto;
     text-align: center;
-    display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -400,8 +524,6 @@ span {
  "vid__page";
   }
   .content-txt {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: content-txt;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -410,8 +532,6 @@ span {
         align-self: center;
   }
   .vid__page {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
     grid-area: vid__page;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -423,7 +543,6 @@ span {
   .table2__page {
     width: 100%;
     margin: auto;
-    display: -ms-grid;
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -437,8 +556,6 @@ span {
  "img6__page";
   }
   .title__page {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: title__page;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -447,8 +564,6 @@ span {
         align-self: center;
   }
   .img1__page {
-    -ms-grid-row: 2;
-    -ms-grid-column: 1;
     grid-area: img1__page;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -457,8 +572,6 @@ span {
         align-self: center;
   }
   .img2__page {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
     grid-area: img2__page;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -467,8 +580,6 @@ span {
         align-self: center;
   }
   .img3__page {
-    -ms-grid-row: 4;
-    -ms-grid-column: 1;
     grid-area: img3__page;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -477,8 +588,6 @@ span {
         align-self: center;
   }
   .img4__page {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
     grid-area: img4__page;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -487,8 +596,6 @@ span {
         align-self: center;
   }
   .img5__page {
-    -ms-grid-row: 6;
-    -ms-grid-column: 1;
     grid-area: img5__page;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -497,8 +604,6 @@ span {
         align-self: center;
   }
   .img6__page {
-    -ms-grid-row: 7;
-    -ms-grid-column: 1;
     grid-area: img6__page;
     -ms-grid-column-align: center;
         justify-self: center;
@@ -514,15 +619,9 @@ span {
     width: 100%;
   }
   .container_pricing {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .container_pricing_items1 {
     text-align: center;
@@ -731,4 +830,6 @@ span {
   /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
 }
+
 /*# sourceMappingURL=style.css.map */
+

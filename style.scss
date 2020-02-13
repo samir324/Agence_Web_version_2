@@ -1,38 +1,7 @@
 * {
-    <<<<<<< HEAD padding: 0;
+padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    width: 80%;
-    margin: 0 auto;
-    font-family: 'PT Serif', serif;
-    font-size: 1.2em;
-}
-
-/*---------------------------------------**CSS KHADIJA**---------------------------------------*/
-
-/*-------------------------------------**FIN CSS KHADIJA**-------------------------------------*/
-/*-----------------------------------------**CSS SAAF**----------------------------------------*/
-
-/*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
-/*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
-
-/*----------------------------------------**FIN CSS NAJJAR**-------------------------------------*/
-/*-----------------------------------------**CSS ILYASS**----------------------------------------*/
-
-/*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
-/*-----------------------------------------**CSS SAMIR**----------------------------------------*/
-.section_pricing h1 {
-    color: orange;
-    text-align: center;
-    font-size: 4rem;
-    margin: 6% 0 6% 0;
-    =======padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    >>>>>>>112af4b2faf7bdf7f2d0471e29133c6d559b60da
 }
 
 body {
@@ -50,7 +19,6 @@ body {
 .saaf {
     width: auto;
     height: 750px;
-
     .saaf__info {
         text-align: center;
         height: 25%;
@@ -98,8 +66,6 @@ body {
                 width: 10%;
                 height: 10%;
                 margin-bottom: 25px;
-                ;
-
             }
 
             h2 {
@@ -221,10 +187,9 @@ span {
 }
 
 .img1__page {
-    grid-area: img1__page;
-    justify-self: center;
-    align-self: center;
-    padding-top: 3%;
+  grid-area: img1__page;
+  justify-self: center;
+  align-self: center;
 }
 
 .img2__page {
@@ -265,16 +230,16 @@ span {
 /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
 /*-----------------------------------------**CSS SAMIR**----------------------------------------*/
 .section_pricing h1 {
-    color: orange;
-    text-align: center;
-    font-size: 3rem;
-    margin: 6% 0 6% 0;
+  color: #FF7315;
+  text-align: center;
+  font-size: 3rem;
+  margin: 6% 0 6% 0;
 }
 
 .responsive {
     width: 100%;
 }
-
+*
 .para {
     text-align: center;
     font-size: 2rem;
@@ -298,10 +263,10 @@ span {
 }
 
 .container_pricing_items1 {
-    text-align: center;
-    color: orange;
-    margin: 5% 0 20% 0;
-    font-size: 2rem;
+  text-align: center;
+  color: #FF7315;
+  margin: 5% 0 20% 0;
+  font-size: 2rem;
 }
 
 .container_pricing_items2 {
@@ -316,10 +281,10 @@ span {
 }
 
 .button_pricing {
-    padding: 2% 13% 2% 13%;
-    border-radius: 7px;
-    background-color: orange;
-    border: none;
+  padding: 10% 30% 10% 30%;
+  border-radius: 7px;
+  background-color: #FF7315;
+  border: none;
 }
 
 
@@ -672,4 +637,4 @@ span {
         /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
 
         /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
-    }
+}
