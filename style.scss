@@ -225,7 +225,7 @@ span {
 /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
 /*-----------------------------------------**CSS SAMIR**----------------------------------------*/
 .section_pricing h1 {
-  color: orange;
+  color: #FF7315;
   text-align: center;
   font-size: 3rem;
   margin: 6% 0 6% 0;
@@ -234,7 +234,7 @@ span {
 .responsive {
   width: 100%;
 }
-
+*
 .para {
   text-align: center;
   font-size: 2rem;
@@ -259,7 +259,7 @@ span {
 
 .container_pricing_items1 {
   text-align: center;
-  color: orange;
+  color: #FF7315;
   margin: 5% 0 20% 0;
   font-size: 2rem;
 }
@@ -276,9 +276,9 @@ span {
 }
 
 .button_pricing {
-  padding: 2% 13% 2% 13%;
+  padding: 10% 30% 10% 30%;
   border-radius: 7px;
-  background-color: orange;
+  background-color: #FF7315;
   border: none;
 }
 
@@ -417,25 +417,8 @@ span {
 
   }
 
-  .container_pricing_items1 {
-    text-align: center;
-    color: orange;
-    margin: 5% 0 20% 0;
-    font-size: 2rem;
-    padding: 0 50% 0 50%;
-  }
 
-  .container_pricing_items2 {
-
-    margin-left: -6%;
-
-  }
-
-  .container_pricing_items {
-    padding: 0 80% 0 10%;
-    margin-left: 5%;
-
-  }
+  
 
 
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SAMIR**\\\\\\\\\\\\\\\\\\\\\\\-*/
