@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
   -webkit-box-sizing: border-box;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37,6 +38,9 @@ body {
   -webkit-box-sizing: border-box;
 >>>>>>> parent of 4c0f31a... view change
 =======
+>>>>>>> parent of 4c0f31a... view change
+=======
+  -webkit-box-sizing: border-box;
 >>>>>>> parent of 4c0f31a... view change
   box-sizing: border-box;
 }
@@ -101,8 +105,11 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   flex-direction: column;
   align-items: center;
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -147,6 +154,7 @@ body {
 
 /*----------------------------------------**FIN CSS SAAF**-------------------------------------*/
 /*-----------------------------------------**CSS NAJJAR**----------------------------------------*/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,6 +287,8 @@ span {
 >>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
+=======
+>>>>>>> parent of 4c0f31a... view change
 /*----------------------------------------**FIN CSS NAJJAR**-------------------------------------*/
 /*-----------------------------------------**CSS ILYASS**----------------------------------------*/
 /*----------------------------------------**FIN CSS ILYASS**-------------------------------------*/
@@ -308,10 +318,13 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -573,6 +586,9 @@ span {
       "vid__page";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 4c0f31a... view change
+=======
 >>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
@@ -589,9 +605,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -610,9 +629,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -648,6 +670,9 @@ span {
       "img6__page";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 4c0f31a... view change
+=======
 >>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
@@ -664,9 +689,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -685,9 +713,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -706,9 +737,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -727,9 +761,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -748,9 +785,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -769,9 +809,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -790,9 +833,12 @@ span {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         -ms-grid-row-align: center;
         align-self: center;
 =======
+=======
+>>>>>>> parent of 4c0f31a... view change
 =======
 >>>>>>> parent of 4c0f31a... view change
 =======
@@ -1026,8 +1072,8 @@ span {
   /*-----------------------Responsive pour Mobile - SANAE-------------------------*/
   /*-\\\\\\\\\\\\\\\\\\**FIN "Responsive pour Mobile" - SANA**\\\\\\\\\\\\\\\\\\\\\\\\-*/
 }
-<<<<<<< HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
@@ -1040,5 +1086,8 @@ span {
 >>>>>>> parent of 4c0f31a... view change
 =======
 
+/*# sourceMappingURL=style.css.map */
+>>>>>>> parent of 4c0f31a... view change
+=======
 /*# sourceMappingURL=style.css.map */
 >>>>>>> parent of 4c0f31a... view change
